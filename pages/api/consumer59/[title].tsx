@@ -21,7 +21,6 @@ export default async function handler(req: NextRequest) {
         width: '100%',
         height: '100%',
         backgroundColor: 'white',
-        fontFamily: 'Gothic A1',
       }}>
         <div tw="flex flex-col justify-between items-center gap-16 text-center">
           <p tw="font-900 text-gray-900 text-4xl">
@@ -61,9 +60,6 @@ export default async function handler(req: NextRequest) {
       height: 630,
       emoji: 'fluent',
       debug: false,
-      fonts: [
-        { name: 'Gothic A1', style: 'normal', weight: 900, data: await fetch(new URL('../../../assets/GothicA1-Black.ttf', import.meta.url)).then(res => res.arrayBuffer()) },
-      ]
     }
   )
 }
