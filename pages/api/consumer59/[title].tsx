@@ -21,6 +21,7 @@ export default async function handler(req: NextRequest) {
         width: '100%',
         height: '100%',
         backgroundColor: 'white',
+        fontFamily: 'Noto Sans KR'
       }}>
         <div tw="flex flex-col justify-between items-center gap-16 text-center">
           <p tw="font-900 text-gray-900 text-4xl">
