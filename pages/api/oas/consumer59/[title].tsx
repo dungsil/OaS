@@ -23,7 +23,7 @@ export default async function handler(req: NextRequest) {
         backgroundColor: 'white',
       }}>
         <div tw="flex flex-col justify-between items-center gap-16 text-center">
-          <p tw="font-black text-gray-900 text-4xl">
+          <p tw="font-black text-gray-900 text-5xl">
             <span tw="mr-4">"</span>
 
             {title}
@@ -31,28 +31,14 @@ export default async function handler(req: NextRequest) {
             <span tw="ml-4">"</span>
           </p>
 
-          <p tw="font-medium text-blue-800">
+          <p tw="font-medium text-3xl text-blue-800">
             #멈춰라SPC #SPC불매 #소비자59
           </p>
         </div>
 
-        <div tw="absolute bottom-4 flex justify-between w-full px-4 py-0 text-gray-600 text-xs">
-          <p tw="m-0">
-            소비자59는
-            <b tw="font-bold mx-1">
-              파리바게뜨노동자 힘내라 공동행동
-            </b>
-            및
-            <b tw="font-bold ml-1">
-              화섬식품노조 파리바게뜨지회
-            </b>
-            와는 관련없는 사이트임을 밝힙니다.
-          </p>
-
-          <p tw="font-light m-0">
-            🕊️ 소비자59 | c59.dun.land
-          </p>
-        </div>
+        <p tw="absolute bottom-4 right-4 font-light m-0">
+          🕊️ 소비자59 | c59.dun.land
+        </p>
       </div>
     ),
     {
